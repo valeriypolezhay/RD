@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Local" parallel="tests" thread-count="2">
+<!--    Add implementation-->
+<!--    Create suite for running tests buy using local emulator or local device-->
+
+    <parameter name="driverName" value="local" />
+    <parameter name="deviceName" value="emulator-5554" />
+    <parameter name="screenOrientation" value="vertical" />
+    <test name="FirstTestKotlin" >
+        <classes>
+            <class name="tests.regression.HomePage" />
+        </classes>
+    </test>
+
+
+</suite>

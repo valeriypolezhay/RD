@@ -1,0 +1,22 @@
+{
+  "commonCapabilities": {
+    "project": "Project",
+    "automationName": "UiAutomator2",
+    "acceptSslCerts": "true",
+    "autoGrantPermissions": "true"
+  },
+  "deviceCapabilities": [
+    {
+      "device": "Google Pixel 3 XL",
+      "os": "Android",
+      "osVersion": "9.0",
+      "appiumVersion": "1.6.5"
+    },
+    {
+      "device": "Google Pixel 3",
+      "os": "Android",
+      "osVersion": "9.0",
+      "appiumVersion": "1.6.5"
+    }
+  ]
+}

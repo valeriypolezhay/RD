@@ -1,0 +1,9 @@
+{
+  "browserStack": {
+    "server": "hub-cloud.browserstack.com",
+    "userName": "valerii39",
+    "key": "nymRAPPKeUwsGy1d1yNF",
+    "appAutomateUrl": "https://api-cloud.browserstack.com/app-automate",
+    "appPath": "./src/main/resources/apk/myAPK.apk"
+  }
+}
