@@ -6,11 +6,10 @@
     <!--    Create suite for running tests on BrowserStack(Create trial account for that), in two parallel threads-->
     <!--    Hint. Create your BrowserStack account not from Epam network.-->
 
-    <parameter name="driverName" value="BSdriver" />
-    <parameter name="deviceName" value="Google Pixel 3 XL" />
-    <parameter name="screenOrientation" value="vertical" />
-
         <test name="FirstTestKotlin" >
+            <parameter name="driverName" value="BSdriver" />
+            <parameter name="deviceName" value="Google Pixel" />
+            <parameter name="screenOrientation" value="portrait" />
             <classes>
                 <class name="tests.regression.HomePage" />
             </classes>

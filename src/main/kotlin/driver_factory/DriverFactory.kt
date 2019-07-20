@@ -1,6 +1,5 @@
 package driver_factory
 
-import browser_stack.capabilities.provider.BrowserStackCapabilitiesProvider
 import browser_stack.driver_provider.BSDriverProvider
 import driver_factory.local_driver.LocalDriverProvider
 import org.openqa.selenium.WebDriver

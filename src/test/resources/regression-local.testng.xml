@@ -6,7 +6,7 @@
 
     <parameter name="driverName" value="local" />
     <parameter name="deviceName" value="emulator-5554" />
-    <parameter name="screenOrientation" value="vertical" />
+    <parameter name="screenOrientation" value="portrait" />
     <test name="FirstTestKotlin" >
         <classes>
             <class name="tests.regression.HomePage" />

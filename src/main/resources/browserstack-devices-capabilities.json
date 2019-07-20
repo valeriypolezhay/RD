@@ -10,12 +10,14 @@
       "device": "Google Pixel 3 XL",
       "os": "Android",
       "osVersion": "9.0",
+      "realMobile": true,
       "appiumVersion": "1.6.5"
     },
     {
       "device": "Google Pixel 3",
       "os": "Android",
       "osVersion": "9.0",
+      "realMobile": true,
       "appiumVersion": "1.6.5"
     }
   ]

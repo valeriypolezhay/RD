@@ -1,12 +1,9 @@
 package browser_stack.driver_provider
 
-import io.appium.java_client.remote.AndroidMobileCapabilityType
-import io.appium.java_client.remote.AutomationName
-import io.appium.java_client.remote.MobileCapabilityType
-import org.openqa.selenium.Platform
+import browser_stack.capabilities.provider.BrowserStackCapabilitiesProvider
+import com.codeborne.selenide.SelenideElement
+import io.appium.java_client.android.AndroidDriver
 import org.openqa.selenium.WebDriver
-import org.openqa.selenium.remote.CapabilityType
-import org.openqa.selenium.remote.DesiredCapabilities
 import org.openqa.selenium.remote.RemoteWebDriver
 import java.net.URL
 
@@ -19,19 +16,11 @@ class BSDriverProvider() {
      */
     fun getDriver(capabilityName: String, screenOrientation: String): WebDriver {
 //        TODO("Add implementation - maybe done")
-        val capabilities = DesiredCapabilities()
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "")
-        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2)
-        capabilities.setCapability(CapabilityType.PLATFORM_NAME, Platform.ANDROID)
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1.1")
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.myapp.android")
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.myapp.android.HomeActivity")
-        capabilities.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, true)
-        capabilities.setCapability("capabilityName", capabilityName)
-        capabilities.setCapability("screenOrientation", screenOrientation)
+//        val capabilities = DesiredCapabilities.android()
+        val bsCapability = BrowserStackCapabilitiesProvider(capabilityName, screenOrientation).desiredCapabilities
 
-        return RemoteWebDriver(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), capabilities)
-
+//        return RemoteWebDriver(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), bsCapability)
+        return AndroidDriver<SelenideElement>(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), bsCapability)
 
     }
 }

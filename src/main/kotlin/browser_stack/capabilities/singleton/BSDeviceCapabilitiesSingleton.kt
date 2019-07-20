@@ -6,13 +6,13 @@ import com.google.gson.JsonObject
 import com.jayway.jsonpath.Configuration
 import com.jayway.jsonpath.JsonPath
 import com.jayway.jsonpath.spi.json.GsonJsonProvider
+import com.jayway.jsonpath.spi.json.JsonProvider
 import global_variables.Paths
 import java.io.File
 
 object BSDeviceCapabilitiesSingleton {
 
     val deviceCapabilities = getCapabilities()
-
 
     /**
      * Get list of available capabilities form json
@@ -23,10 +23,10 @@ object BSDeviceCapabilitiesSingleton {
 
         val fullJsonString: String = File(Paths.BS_CAPABILITIES_JSON).readText()
         val conf = Configuration.builder().jsonProvider(GsonJsonProvider()).build()
-        val browserStackJson: JsonObject = JsonPath.using(conf).parse(fullJsonString).read("$.commonCapabilities")
+        val browserStackJson: JsonObject = JsonPath.using(conf).parse(fullJsonString).read("$.deviceCapabilities")
         val bsDeviceCapability = browserStackJson.toString()
 
-        return listOf(Gson().fromJson(bsDeviceCapability, BSDeviceCapabilitiesModel::class.java))
-
+        return listOf(Gson().fromJson(bsDeviceCapability,BSDeviceCapabilitiesModel::class.java))
+//        return (Gson().fromJson(bsDeviceCapability, listOf<BSDeviceCapabilitiesModel>()::class.java))
     }
 }

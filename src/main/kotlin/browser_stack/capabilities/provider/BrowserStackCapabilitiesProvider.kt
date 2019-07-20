@@ -23,16 +23,19 @@ class BrowserStackCapabilitiesProvider(capabilityName: String, private val scree
      * Set capabilities to desiredCapabilities variable
      */
     private fun setCapability() {
-      //  TODO("Add implementation - maybe done")
-        desiredCapabilities.setCapability("device",deviceCapabilities.device)
-        desiredCapabilities.setCapability("os",deviceCapabilities.os)
-        desiredCapabilities.setCapability("osVersion",deviceCapabilities.osVersion)
-        desiredCapabilities.setCapability("appiumVersion",deviceCapabilities.appiumVersion)
+        //  TODO("Add implementation - maybe done")
 
-        desiredCapabilities.setCapability( "project",commonCapabilities.project)
-        desiredCapabilities.setCapability( "automationName",commonCapabilities.automationName)
-        desiredCapabilities.setCapability( "acceptSslCerts",commonCapabilities.acceptSslCerts)
-        desiredCapabilities.setCapability( "autoGrantPermissions",commonCapabilities.autoGrantPermissions)
+        desiredCapabilities.setCapability("device", deviceCapabilities.device)
+        desiredCapabilities.setCapability("os", deviceCapabilities.os)
+        desiredCapabilities.setCapability("osVersion", deviceCapabilities.osVersion)
+        desiredCapabilities.setCapability("appiumVersion", deviceCapabilities.appiumVersion)
+
+        desiredCapabilities.setCapability("screenOrientation", screenOrientation)
+
+        desiredCapabilities.setCapability("project", commonCapabilities.project)
+        desiredCapabilities.setCapability("automationName", commonCapabilities.automationName)
+        desiredCapabilities.setCapability("acceptSslCerts", commonCapabilities.acceptSslCerts)
+        desiredCapabilities.setCapability("autoGrantPermissions", commonCapabilities.autoGrantPermissions)
 
     }
 }
