@@ -3,6 +3,7 @@ package browser_stack.capabilities.singleton
 import browser_stack.capabilities.model.BSDeviceCapabilitiesModel
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.fasterxml.jackson.module.kotlin.readValue
 import global_variables.Paths
 
 import java.io.File
@@ -22,9 +23,9 @@ object BSDeviceCapabilitiesSingleton {
         val file = File(Paths.BS_CAPABILITIES_JSON)
 
         val generalNode: JsonNode = mapper.readTree(file).path("deviceCapabilities")
-        print(generalNode)
 
-        return (mapper.convertValue(generalNode, arrayListOf<BSDeviceCapabilitiesModel>()::class.java))
+//        return (mapper.convertValue(generalNode, arrayListOf<BSDeviceCapabilitiesModel>()::class.java))
 
+        return mapper.readValue(generalNode.toString())
     }
 }

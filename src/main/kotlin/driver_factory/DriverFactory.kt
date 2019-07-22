@@ -4,7 +4,7 @@ import browser_stack.driver_provider.BSDriverProvider
 import driver_factory.local_driver.LocalDriverProvider
 import org.openqa.selenium.WebDriver
 
-class DriverFactory{
+class DriverFactory {
 
     /**
      * Provides driver by driver name(ex. browserStack or local)
@@ -17,12 +17,12 @@ class DriverFactory{
 
         val localDriverProvider = LocalDriverProvider()
         val bsDriverProvider = BSDriverProvider()
-        var webDriver: WebDriver?=null
+        var webDriver: WebDriver? = null
 
 
         when (driverName) {
             "local" -> webDriver = localDriverProvider.getDriver(screenOrientation)
-            "BSdriver" -> webDriver = bsDriverProvider.getDriver(screenOrientation, deviceName)
+            "BSdriver" -> webDriver = bsDriverProvider.getDriver(deviceName, screenOrientation)
         }
         return webDriver!!
     }

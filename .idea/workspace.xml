@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b3f592-e9c8-45b1-be12-0c52b673f658" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/capability_finder/BSDeviceCapabilityFinder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/capability_finder/BSDeviceCapabilityFinder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/model/BSDeviceCapabilitiesModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/model/BSDeviceCapabilitiesModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/provider/BrowserStackCapabilitiesProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/provider/BrowserStackCapabilitiesProvider.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSCommonCapabilitiesSingleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSCommonCapabilitiesSingleton.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/config/singleton/BSCommonConfigSingleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/config/singleton/BSCommonConfigSingleton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/browser_stack/driver_provider/BSDriverProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/browser_stack/driver_provider/BSDriverProvider.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/page_object/HomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/HomePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/apk/myApk.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/apk/myApk.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack-devices-capabilities.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/browserstack-devices-capabilities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack/browserstackFieldsSupplier.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/browserstack/browserstackFieldsSupplier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/common.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/common.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/regression-local.testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regression-local.testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -69,32 +55,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/regression-browserstack.testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/browserstack-devices-capabilities.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/common.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/exec/UploadAppToBrowserStack.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="e#26#446#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/exec/BrowserStackApiStatusCheck.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -102,8 +103,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/touch_actions/Swipes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="448">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/driver_provider/BSDriverProvider.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,8 +130,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="31" selection-end-column="67" />
+            <state relative-caret-position="252">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#46#272#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/browserstack/browserstackFieldsSupplier.json" />
         <option value="$PROJECT_DIR$/src/main/kotlin/global_variables/Paths.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/regression-local.testng.xml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/page_object/HomePage.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/provider/BrowserStackCapabilitiesProvider.kt" />
@@ -146,14 +176,15 @@
         <option value="$PROJECT_DIR$/src/test/resources/regression-browserstack.testng.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/browserstack-devices-capabilities.json" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/capability_finder/BSDeviceCapabilityFinder.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/config/singleton/BSCommonConfigSingleton.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSCommonCapabilitiesSingleton.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/common.config.json" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/capability_finder/BSDeviceCapabilityFinder.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/common.config.json" />
       </list>
     </option>
   </component>
@@ -226,6 +257,16 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="browser_stack" type="462c0819:PsiDirectoryNode" />
               <item name="capabilities" type="462c0819:PsiDirectoryNode" />
+              <item name="capability_finder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileRD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="browser_stack" type="462c0819:PsiDirectoryNode" />
+              <item name="capabilities" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,6 +306,15 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="browser_stack" type="462c0819:PsiDirectoryNode" />
               <item name="driver_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileRD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="browser_stack" type="462c0819:PsiDirectoryNode" />
+              <item name="exec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileRD" type="b2602c69:ProjectViewProjectNode" />
@@ -410,7 +460,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Projects/RD/src/test/resources/regression-local.testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Valerii_Polezhai/Downloads/Appium_Automation_Home_Task/RD/src/test/resources/regression-browserstack.testng.xml">
     <configuration name="RD [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -483,9 +533,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Projects/RD/src/test/resources/regression-local.testng.xml" />
         <item itemvalue="TestNG.C:/Users/Valerii_Polezhai/Downloads/Appium_Automation_Home_Task/RD/src/test/resources/regression-browserstack.testng.xml" />
         <item itemvalue="Kotlin.browser_stack.exec.UploadAppToBrowserStack" />
+        <item itemvalue="TestNG.D:/Projects/RD/src/test/resources/regression-local.testng.xml" />
         <item itemvalue="Gradle.RD [clean]" />
         <item itemvalue="TestNG.HomePage.test" />
       </list>
@@ -499,38 +549,46 @@
       <option name="presentableId" value="Default" />
       <updated>1563367791121</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed local /wd/hub">
+      <created>1563794649140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563794649140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 11m 38s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 18m 25s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 12m 26s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 24m 49s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 14m 53s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 25m 47s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 16m 48s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 26m 28s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 19m 59s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 27m 06s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 20m 30s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 28m 03s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 23m 53s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 35m 29s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 12h 24m 26s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 38m 22s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 14h 11m 01s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 15h 39m 39s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.22 at 14h 17m 16s.xml">
-      <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Valerii_Polezhai_Downloads_Appium_Automation_Home_Task_RD_src_test_resources_regression-browserstack_testng_xml - 2019.07.22 at 16h 02m 27s.xml">
+      <configuration name="C:/Users/Valerii_Polezhai/Downloads/Appium_Automation_Home_Task/RD/src/test/resources/regression-browserstack.testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -546,7 +604,7 @@
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26584318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26584318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -554,8 +612,8 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.4381271" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2664437" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39955357" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.5562988" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.36343366" />
@@ -572,6 +630,10 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed local /wd/hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed local /wd/hub" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -585,48 +647,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/d46e00faac79f8ec6bb956154ecde4282871a6bf/kotlin-stdlib-1.3.11-sources.jar!/kotlin/String.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/io/appium/java_client/android/AndroidDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/com.github.kittinunf.fuel/fuel/1.12.0/72384d1b98ddd83ef830beaf53e3a7fee45d476/fuel-1.12.0-sources.jar!/com/github/kittinunf/fuel/core/FuelManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1081">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/api/BrowserStackApiClient.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/page_steps/PageSteps.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/annotations/BeforeClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -652,13 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="199" column="13" lean-forward="true" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/exec/BrowserStackApiStatusCheck.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -771,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/exec/UploadAppToBrowserStack.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/model/BSDeviceCapabilitiesModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -785,45 +791,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/browserstack-devices-capabilities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/regression-browserstack.testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/config/singleton/BSCommonConfigSingleton.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/regression-local.testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/capability_finder/BSDeviceCapabilityFinder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/driver_provider/BSDriverProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="19" column="106" selection-start-line="19" selection-start-column="106" selection-end-line="19" selection-end-column="106" />
         </state>
       </provider>
     </entry>
@@ -859,37 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/common.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/provider/BrowserStackCapabilitiesProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSCommonCapabilitiesSingleton.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -897,41 +837,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/config/singleton/BSCommonConfigSingleton.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="578">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSCommonCapabilitiesSingleton.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="31" selection-end-column="67" />
+        <state relative-caret-position="354">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/touch_actions/Swipes.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/provider/BrowserStackCapabilitiesProvider.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="671">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="566" selection-start-line="566" selection-end-line="566" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/touch_actions/point_creator/PointCreator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="84">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/touch_actions/Scrolls.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/capability_finder/BSDeviceCapabilityFinder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="446">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#26#446#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/capabilities/singleton/BSDeviceCapabilitiesSingleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#46#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/driver_provider/BSDriverProvider.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/touch_actions/Swipes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/regression-browserstack.testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/browserstack-devices-capabilities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/common.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/exec/BrowserStackApiStatusCheck.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/exec/UploadAppToBrowserStack.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>

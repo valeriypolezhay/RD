@@ -11,13 +11,13 @@ import org.testng.annotations.BeforeClass
 import org.testng.annotations.Parameters
 
 abstract class BaseTest {
-
+//    var driver:WebDriver=AndroiDriver<*>()
     @BeforeClass
     @Parameters("driverName", "deviceName", "screenOrientation")
     fun setDriver(driverName:String, deviceName:String, screenOrientation:String){
         val driver = DriverFactory().getDriver(driverName, deviceName, screenOrientation.toUpperCase())
         WebDriverRunner.setWebDriver(driver)
-//        return driver
+
     }
 
 //    @AfterClass(alwaysRun = true)
