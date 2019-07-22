@@ -2,6 +2,11 @@ package browser_stack.capabilities.provider
 
 import browser_stack.capabilities.capability_finder.BSDeviceCapabilityFinder
 import browser_stack.capabilities.singleton.BSCommonCapabilitiesSingleton
+import io.appium.java_client.remote.AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS
+import io.appium.java_client.remote.MobileCapabilityType
+import io.appium.java_client.remote.MobileCapabilityType.DEVICE_NAME
+import io.appium.java_client.remote.MobileCapabilityType.ORIENTATION
+import org.openqa.selenium.remote.CapabilityType.PLATFORM_NAME
 import org.openqa.selenium.remote.DesiredCapabilities
 
 /**
@@ -25,17 +30,23 @@ class BrowserStackCapabilitiesProvider(capabilityName: String, private val scree
     private fun setCapability() {
         //  TODO("Add implementation - maybe done")
 
-        desiredCapabilities.setCapability("device", deviceCapabilities.device)
-        desiredCapabilities.setCapability("os", deviceCapabilities.os)
-        desiredCapabilities.setCapability("osVersion", deviceCapabilities.osVersion)
+        desiredCapabilities.setCapability("realMobile", "true")
+
+        desiredCapabilities.setCapability(DEVICE_NAME, deviceCapabilities.device)
+        desiredCapabilities.setCapability(PLATFORM_NAME, deviceCapabilities.os)
+        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, deviceCapabilities.osVersion)
         desiredCapabilities.setCapability("appiumVersion", deviceCapabilities.appiumVersion)
 
-        desiredCapabilities.setCapability("screenOrientation", screenOrientation)
+        desiredCapabilities.setCapability(ORIENTATION, screenOrientation.toUpperCase())
 
         desiredCapabilities.setCapability("project", commonCapabilities.project)
         desiredCapabilities.setCapability("automationName", commonCapabilities.automationName)
         desiredCapabilities.setCapability("acceptSslCerts", commonCapabilities.acceptSslCerts)
-        desiredCapabilities.setCapability("autoGrantPermissions", commonCapabilities.autoGrantPermissions)
+        desiredCapabilities.setCapability(AUTO_GRANT_PERMISSIONS, commonCapabilities.autoGrantPermissions)
+
+
+
+
 
     }
 }

@@ -16,11 +16,9 @@ class BSDriverProvider() {
      */
     fun getDriver(capabilityName: String, screenOrientation: String): WebDriver {
 //        TODO("Add implementation - maybe done")
-//        val capabilities = DesiredCapabilities.android()
-        val bsCapability = BrowserStackCapabilitiesProvider(capabilityName, screenOrientation).desiredCapabilities
 
-//        return RemoteWebDriver(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), bsCapability)
-        return AndroidDriver<SelenideElement>(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), bsCapability)
+        val bsCapability = BrowserStackCapabilitiesProvider(capabilityName, screenOrientation).desiredCapabilities
+        return RemoteWebDriver(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), bsCapability)
 
     }
 }

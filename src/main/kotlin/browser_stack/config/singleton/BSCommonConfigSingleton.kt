@@ -1,6 +1,8 @@
 package browser_stack.config.singleton
 
 import browser_stack.config.models.BSCommonConfigModel
+import com.fasterxml.jackson.databind.JsonNode
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 import global_variables.Paths.Companion.BS_COMMON_CONFIG_JSON
@@ -22,13 +24,10 @@ object BSCommonConfigSingleton {
     private fun getConfigs(): BSCommonConfigModel {
 //        TODO("Add implementation - maybe done")
 
-        val fullJsonString: String = File(BS_COMMON_CONFIG_JSON).readText()
-        val conf = Configuration.builder().jsonProvider(GsonJsonProvider()).build()
-        val browserStackJson: JsonObject = JsonPath.using(conf).parse(fullJsonString).read("$.browserStack")
-        val browserStackString = browserStackJson.toString()
+        val mapper = jacksonObjectMapper()
+        val file = File(BS_COMMON_CONFIG_JSON)
 
-        return Gson().fromJson(browserStackString, BSCommonConfigModel::class.java)
-
-
+        val generalNode: JsonNode = mapper.readTree(file).path("browserStack")
+        return mapper.convertValue(generalNode, BSCommonConfigModel::class.java)
     }
 }

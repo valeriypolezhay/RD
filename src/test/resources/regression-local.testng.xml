@@ -4,10 +4,11 @@
 <!--    Add implementation-->
 <!--    Create suite for running tests buy using local emulator or local device-->
 
-    <parameter name="driverName" value="local" />
-    <parameter name="deviceName" value="emulator-5554" />
-    <parameter name="screenOrientation" value="portrait" />
-    <test name="FirstTestKotlin" >
+
+    <test name="LocalTestKotlin" >
+        <parameter name="driverName" value="local" />
+        <parameter name="deviceName" value="emulator-5554" />
+        <parameter name="screenOrientation" value="portrait" />
         <classes>
             <class name="tests.regression.HomePage" />
         </classes>

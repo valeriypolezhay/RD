@@ -1,7 +1,10 @@
 package driver_factory.local_driver
 
+import com.codeborne.selenide.SelenideElement
+import io.appium.java_client.android.AndroidDriver
 import io.appium.java_client.remote.AndroidMobileCapabilityType.*
 import io.appium.java_client.remote.AutomationName
+import io.appium.java_client.remote.MobileCapabilityType
 import io.appium.java_client.remote.MobileCapabilityType.*
 import org.openqa.selenium.Platform
 import org.openqa.selenium.WebDriver
@@ -19,15 +22,20 @@ class LocalDriverProvider {
     fun getDriver(screenOrientation: String): WebDriver {
 //        TODO("Add implementation - maybe done")
         val capabilities = DesiredCapabilities()
+//        capabilities.setCapability(APP, "D:\\Projects\\RD\\src\\main\\resources\\apk\\app-debug.apk")
         capabilities.setCapability(DEVICE_NAME, "emulator-5554")
+
         capabilities.setCapability(AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2)
         capabilities.setCapability(CapabilityType.PLATFORM_NAME, Platform.ANDROID)
-        capabilities.setCapability(PLATFORM_VERSION, "7.1.1")
-        capabilities.setCapability(APP_PACKAGE, "com.myapp.android")
-        capabilities.setCapability(APP_ACTIVITY, "com.myapp.android.HomeActivity")
+        capabilities.setCapability(PLATFORM_VERSION, "9")
+        capabilities.setCapability(APP_PACKAGE, "com.coub.android")
+        capabilities.setCapability(APP_ACTIVITY, "ui.MainActivity")
+
+
         capabilities.setCapability(AUTO_GRANT_PERMISSIONS, true)
         capabilities.setCapability("screenOrientation",screenOrientation)
 
-        return RemoteWebDriver(URL("http://0.0.0.0.4723"), capabilities)
+//        return RemoteWebDriver(URL("http://0.0.0.0.4723"), capabilities)
+        return AndroidDriver<SelenideElement>(URL("http://127.0.0.1:4723/wd/hub"), capabilities)
     }
 }

@@ -24,8 +24,7 @@ class BSDeviceCapabilityFinder {
         return BSDeviceCapabilitiesModel(
             device = "Google Pixel",
             os = "Android",
-            osVersion = "9.0",
-            realMobile = true,
+            osVersion = "7.1",
             appiumVersion = "1.14"
         )
 

@@ -7,18 +7,22 @@
   },
   "deviceCapabilities": [
     {
-      "device": "Google Pixel 3 XL",
+      "device": "Google Pixel",
       "os": "Android",
-      "osVersion": "9.0",
-      "realMobile": true,
-      "appiumVersion": "1.6.5"
+      "osVersion": "7.1",
+      "appiumVersion": "1.14"
+    },
+    {
+      "device": "Galaxy S9 Plus",
+      "os": "Android",
+      "osVersion": "9",
+      "appiumVersion": "1.14"
     },
     {
       "device": "Google Pixel 3",
       "os": "Android",
-      "osVersion": "9.0",
-      "realMobile": true,
-      "appiumVersion": "1.6.5"
+      "osVersion": "9",
+      "appiumVersion": "1.14"
     }
   ]
 }
