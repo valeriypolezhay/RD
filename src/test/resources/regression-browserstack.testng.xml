@@ -11,7 +11,7 @@
             <parameter name="deviceName" value="Google Pixel" />
             <parameter name="screenOrientation" value="portrait" />
             <classes>
-                <class name="tests.regression.HomePage" />
+                <class name="tests.regression.FreshNewAuthorizationTest" />
             </classes>
         </test>
 

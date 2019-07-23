@@ -10,7 +10,7 @@
         <parameter name="deviceName" value="emulator-5554" />
         <parameter name="screenOrientation" value="portrait" />
         <classes>
-            <class name="tests.regression.HomePage" />
+            <class name="tests.regression.FreshNewAuthorizationTest" />
         </classes>
     </test>
 

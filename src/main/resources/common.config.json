@@ -4,6 +4,6 @@
     "userName": "valerii39",
     "key": "nymRAPPKeUwsGy1d1yNF",
     "appAutomateUrl": "https://api-cloud.browserstack.com/app-automate",
-    "appPath": "./src/main/resources/apk/myApk.apk"
+    "appPath": "./src/main/resources/apk/gmail.apk"
   }
 }

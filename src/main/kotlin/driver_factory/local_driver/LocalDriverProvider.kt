@@ -28,8 +28,11 @@ class LocalDriverProvider {
         capabilities.setCapability(AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2)
         capabilities.setCapability(CapabilityType.PLATFORM_NAME, Platform.ANDROID)
         capabilities.setCapability(PLATFORM_VERSION, "9")
-        capabilities.setCapability(APP_PACKAGE, "com.coub.android")
-        capabilities.setCapability(APP_ACTIVITY, "ui.MainActivity")
+//        capabilities.setCapability(APP_PACKAGE, "com.coub.android")
+//        capabilities.setCapability(APP_ACTIVITY, "ui.MainActivity")
+
+        capabilities.setCapability(APP_PACKAGE, "com.google.android.gm")
+        capabilities.setCapability(APP_ACTIVITY, "ConversationListActivityGmail")
 
 
         capabilities.setCapability(AUTO_GRANT_PERMISSIONS, true)
