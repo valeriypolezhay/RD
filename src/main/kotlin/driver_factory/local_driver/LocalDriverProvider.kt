@@ -33,10 +33,10 @@ class LocalDriverProvider {
 
         capabilities.setCapability(APP_PACKAGE, "com.google.android.gm")
         capabilities.setCapability(APP_ACTIVITY, "ConversationListActivityGmail")
-
+//        capabilities.setCapability(NO_RESET, true)
 
         capabilities.setCapability(AUTO_GRANT_PERMISSIONS, true)
-        capabilities.setCapability("screenOrientation",screenOrientation)
+        capabilities.setCapability("screenOrientation", screenOrientation)
 
 //        return RemoteWebDriver(URL("http://0.0.0.0.4723"), capabilities)
         return AndroidDriver<SelenideElement>(URL("http://127.0.0.1:4723/wd/hub"), capabilities)

@@ -16,8 +16,8 @@ abstract class BaseTest {
         WebDriverRunner.setWebDriver(driver)
     }
 
-    @AfterClass(alwaysRun = true)
-    fun tearDown() {
-        Selenide.close()
-    }
+//    @AfterClass(alwaysRun = true)
+//    fun tearDown() {
+//        Selenide.close()
+//    }
 }

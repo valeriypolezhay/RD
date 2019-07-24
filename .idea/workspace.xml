@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b3f592-e9c8-45b1-be12-0c52b673f658" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/EmailTypes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/WelcomePage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/touch_actions/Touches.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/apk/gmail.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/MainPage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/NewMessagePage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/page_object/HomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/page_object/HomePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack/browserstackFieldsSupplier.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/browserstack/browserstackFieldsSupplier.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/common.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/common.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePageTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/regression-browserstack.testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regression-browserstack.testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/regression-local.testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regression-local.testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,65 +57,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
-                <element signature="e#16#309#0" expanded="true" />
+                <element signature="e#15#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/MainPage.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="e#30#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/NewMessagePage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="673">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="e#26#295#0" expanded="true" />
+                <element signature="e#30#166#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#36#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/EmailTypes.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/WelcomePage.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#36#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/api/BrowserStackApiClient.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -172,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/touch_actions/CustomClickByPoints.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePage.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/tests/regression/WelcomePage.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/page_object/HomePage.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/page_object/WelcomePage.kt" />
@@ -184,11 +160,14 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/touch_actions/Touches.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePageTest.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/regression-local.testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/WelcomePage.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/EmailTypes.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/MainPage.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/NewMessagePage.kt" />
       </list>
     </option>
   </component>
@@ -211,6 +190,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,6 +258,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="driver_factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileRD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="driver_factory" type="462c0819:PsiDirectoryNode" />
+              <item name="local_driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileRD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="element_finder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,7 +292,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="page_object" type="462c0819:PsiDirectoryNode" />
-              <item name="new_user_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="mainpage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileRD" type="b2602c69:ProjectViewProjectNode" />
@@ -369,12 +366,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/apk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -504,38 +500,45 @@
       <option name="project" value="LOCAL" />
       <updated>1563800791012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added part of first test">
+      <created>1563894858746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563894858746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Valerii_Polezhai_Downloads_Appium_Automation_Home_Task_RD_src_test_resources_regression-browserstack_testng_xml - 2019.07.23 at 17h 45m 39s.xml">
-      <configuration name="C:/Users/Valerii_Polezhai/Downloads/Appium_Automation_Home_Task/RD/src/test/resources/regression-browserstack.testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 47m 31s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 16h 19m 59s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 48m 53s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 16h 20m 51s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 51m 34s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 16h 40m 25s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 52m 56s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 16h 46m 08s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 53m 56s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 16h 51m 31s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 55m 17s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 16h 56m 58s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 56m 09s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 17h 01m 10s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 17h 58m 05s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 17h 04m 02s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.23 at 18h 02m 14s.xml">
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 17h 05m 03s.xml">
+      <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Projects_RD_src_test_resources_regression-local_testng_xml - 2019.07.24 at 17h 09m 56s.xml">
       <configuration name="D:/Projects/RD/src/test/resources/regression-local.testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -552,7 +555,7 @@
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22717509" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23361976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -560,7 +563,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.43589744" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.20512821" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.27759197" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -581,7 +584,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed local /wd/hub" />
     <MESSAGE value="fixed jumbled bs capability provider params in driver factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed jumbled bs capability provider params in driver factory" />
+    <MESSAGE value="added part of first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added part of first test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -596,16 +600,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bash.exe.stackdump">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/io/appium/java_client/remote/AndroidMobileCapabilityType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="243" column="11" selection-start-line="243" selection-start-column="11" selection-end-line="243" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/DesiredCapabilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -731,24 +725,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/touch_actions/CustomClickByPoints.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/Platform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -766,13 +746,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.java" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/element_finder/Finder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -857,17 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/com.codeborne/selenide/4.14.2/1b9f3556536a57e7db5f3c58bc411da35ddbf5b5/selenide-4.14.2-sources.jar!/com/codeborne/selenide/WebDriverRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#3963#3964#0" expanded="true" />
-            <element signature="e#4015#4016#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/regression/HomePageTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -882,17 +845,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/api/BrowserStackApiClient.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/DriverFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="227">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/WelcomePage.kt">
+    <entry file="jar://D:/Program Files/gradle-4.10.3/caches/modules-2/files-2.1/com.codeborne/selenide/4.14.2/1b9f3556536a57e7db5f3c58bc411da35ddbf5b5/selenide-4.14.2-sources.jar!/com/codeborne/selenide/WebDriverRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="-1484">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#3963#3964#0" expanded="true" />
+            <element signature="e#4015#4016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#36#141#0" expanded="true" />
           </folding>
@@ -906,32 +880,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/AnotherEmail.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/new_user_pages/WelcomePage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="280">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#36#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/browser_stack/api/BrowserStackApiClient.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="533">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/MainPage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <element signature="e#16#309#0" expanded="true" />
+            <element signature="e#30#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/regression/FreshNewAuthorizationTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="334">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/driver_factory/local_driver/LocalDriverProvider.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
-            <element signature="e#26#295#0" expanded="true" />
+            <element signature="e#15#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/page_object/mainpage/NewMessagePage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#30#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
