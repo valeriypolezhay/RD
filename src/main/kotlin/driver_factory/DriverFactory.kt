@@ -15,16 +15,16 @@ class DriverFactory {
     fun getDriver(driverName: String, deviceName: String, screenOrientation: String): WebDriver {
 //        TODO("Add implementation - maybe done")
 
-        val localDriverProvider = LocalDriverProvider()
-        val bsDriverProvider = BSDriverProvider()
-        var webDriver: WebDriver? = null
-
-
-        when (driverName) {
-            "local" -> webDriver = localDriverProvider.getDriver(screenOrientation)
-            "BSdriver" -> webDriver = bsDriverProvider.getDriver(deviceName, screenOrientation)
+        return when (driverName) {
+            "local" -> {
+                LocalDriverProvider().getDriver(screenOrientation)
+            }
+            "BSdriver" -> {
+                BSDriverProvider().getDriver(deviceName, screenOrientation)
+            }
+            else -> throw Exception("driver not found")
         }
-        return webDriver!!
+
     }
 
 }

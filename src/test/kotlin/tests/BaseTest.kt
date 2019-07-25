@@ -1,6 +1,5 @@
 package tests
 
-import com.codeborne.selenide.Selenide
 import com.codeborne.selenide.WebDriverRunner
 import driver_factory.DriverFactory
 import org.testng.annotations.AfterClass

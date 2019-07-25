@@ -5,14 +5,32 @@
 <!--    Create suite for running tests buy using local emulator or local device-->
 
 
-    <test name="LocalTestKotlin" >
+    <test name="NoLoginTest" >
         <parameter name="driverName" value="local" />
         <parameter name="deviceName" value="emulator-5554" />
         <parameter name="screenOrientation" value="portrait" />
         <classes>
-            <class name="tests.regression.FreshNewAuthorizationTest" />
+            <class name="tests.regression.AuthorizeTest" />
         </classes>
     </test>
+
+<!--    <test name="LoginTest" >-->
+<!--        <parameter name="driverName" value="local" />-->
+<!--        <parameter name="deviceName" value="emulator-5554" />-->
+<!--        <parameter name="screenOrientation" value="portrait" />-->
+<!--        <classes>-->
+<!--            <class name="tests.regression.LoginTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="LoginTest" >-->
+<!--        <parameter name="driverName" value="local" />-->
+<!--        <parameter name="deviceName" value="emulator-5554" />-->
+<!--        <parameter name="screenOrientation" value="portrait" />-->
+<!--        <classes>-->
+<!--            <class name="tests.regression.UnsubscribeTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>
