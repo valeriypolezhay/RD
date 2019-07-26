@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression BrowserStack" parallel="tests" thread-count="2">
+<suite name="Regression BrowserStack" >
+<!--    parallel="tests" thread-count="2"-->
+    <test name="NoLoginTest" >
+        <parameter name="driverName" value="BSdriver" />
+        <parameter name="deviceName" value="Google Pixel" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.AuthorizeTest" />
+        </classes>
+    </test>
 
-    <!--    Add implementation-->
-    <!--    Create suite for running tests on BrowserStack(Create trial account for that), in two parallel threads-->
-    <!--    Hint. Create your BrowserStack account not from Epam network.-->
+    <!--    5641a5a7-->
+    <test name="LoginTest" >
+        <parameter name="driverName" value="BSdriver" />
+        <parameter name="deviceName" value="Google Pixel" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.LoginTest" />
+        </classes>
+    </test>
 
-        <test name="FirstTestKotlin" >
-            <parameter name="driverName" value="BSdriver" />
-            <parameter name="deviceName" value="Google Pixel" />
-            <parameter name="screenOrientation" value="portrait" />
-            <classes>
-                <class name="tests.regression.AuthorizeTest" />
-            </classes>
-        </test>
+    <test name="UnsubscribeTest" >
+        <parameter name="driverName" value="BSdriver" />
+        <parameter name="deviceName" value="Google Pixel" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.UnsubscribeTest" />
+        </classes>
+    </test>
 
 
 

@@ -1,6 +1,8 @@
 package browser_stack.driver_provider
 
 import browser_stack.capabilities.provider.BrowserStackCapabilitiesProvider
+import browser_stack.config.models.BSCommonConfigModel
+import browser_stack.config.singleton.BSCommonConfigSingleton
 import com.codeborne.selenide.SelenideElement
 import io.appium.java_client.android.AndroidDriver
 import org.openqa.selenium.WebDriver
@@ -18,7 +20,14 @@ class BSDriverProvider() {
 //        TODO("Add implementation - maybe done")
 
         val bsCapability = BrowserStackCapabilitiesProvider(capabilityName, screenOrientation).desiredCapabilities
-        return RemoteWebDriver(URL("https://valerii39:nymRAPPKeUwsGy1d1yNF@hub.browserstack.com/wd/hub"), bsCapability)
+
+        val specConfiguration = "https://" +
+                BSCommonConfigSingleton.commonConfig.userName +
+                ":" +
+                BSCommonConfigSingleton.commonConfig.key +
+                "@hub.browserstack.com/wd/hub"
+
+        return RemoteWebDriver(URL(specConfiguration), bsCapability)
 
     }
 }

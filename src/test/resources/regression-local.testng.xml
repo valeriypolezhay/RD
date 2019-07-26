@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression Local" parallel="tests" thread-count="2">
+<!--<suite name="Regression Local" parallel="tests" thread-count="2">-->
+<suite name="Regression Local">
 <!--    Add implementation-->
 <!--    Create suite for running tests buy using local emulator or local device-->
 
@@ -14,23 +15,24 @@
         </classes>
     </test>
 
-<!--    <test name="LoginTest" >-->
-<!--        <parameter name="driverName" value="local" />-->
-<!--        <parameter name="deviceName" value="emulator-5554" />-->
-<!--        <parameter name="screenOrientation" value="portrait" />-->
-<!--        <classes>-->
-<!--            <class name="tests.regression.LoginTest" />-->
-<!--        </classes>-->
-<!--    </test>-->
+<!--    5641a5a7-->
+    <test name="LoginTest" >
+        <parameter name="driverName" value="local" />
+        <parameter name="deviceName" value="emulator-5554" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.LoginTest" />
+        </classes>
+    </test>
 
-<!--    <test name="LoginTest" >-->
-<!--        <parameter name="driverName" value="local" />-->
-<!--        <parameter name="deviceName" value="emulator-5554" />-->
-<!--        <parameter name="screenOrientation" value="portrait" />-->
-<!--        <classes>-->
-<!--            <class name="tests.regression.UnsubscribeTest" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="UnsubscribeTest" >
+        <parameter name="driverName" value="local" />
+        <parameter name="deviceName" value="emulator-5554" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.UnsubscribeTest" />
+        </classes>
+    </test>
 
 
 </suite>
