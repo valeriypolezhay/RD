@@ -1,0 +1,11 @@
+{
+  "browserStack": {
+    "server": "hub-cloud.browserstack.com",
+    "userName": "oleksii52",
+    "key": "P5o1CosneCraZZFntEJR",
+    "appAutomateUrl": "https://api-cloud.browserstack.com/app-automate",
+    "appPath": "src/main/resources/apk/calculator.apk",
+    "protocol": "https://",
+    "hubUrl": "hub.browserstack.com/wd/hub"
+  }
+}

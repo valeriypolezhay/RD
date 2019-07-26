@@ -1,0 +1,5 @@
+.idea/
+out/
+allure-results/
+build/
+/bash.exe.stackdump

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression BrowserStack" parallel="tests" thread-count="2">
+
+    <!--    Add implementation-->
+    <!--    Create suite for running tests on BrowserStack(Create trial account for that), in two parallel threads-->
+    <!--    Hint. Create your BrowserStack account not from Epam network.-->
+
+    <test name="Regression test cycle" >
+        <parameter name="driverName" value="BSdriver" />
+        <parameter name="deviceName" value="Samsung Galaxy S8" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.AppVersionTest"/>
+            <class name="tests.regression.SinTest"/>
+            <class name="tests.regression.SubTest"/>
+            <class name="tests.regression.AddTest"/>
+            <class name="tests.regression.MulTest"/>
+            <class name="tests.regression.DivTest"/>
+        </classes>
+    </test>
+
+</suite>
