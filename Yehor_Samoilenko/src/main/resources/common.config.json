@@ -1,0 +1,9 @@
+{
+  "browserStack": {
+    "server": "hub-cloud.browserstack.com",
+    "userName": "yehor10",
+    "key": "8Vs3nbxqrZExzX6cLk3h",
+    "appAutomateUrl": "https://api-cloud.browserstack.com/app-automate",
+    "appPath": "src/main/resources/apk/atb.apk"
+  }
+}

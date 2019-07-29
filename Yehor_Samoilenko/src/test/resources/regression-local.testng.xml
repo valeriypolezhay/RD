@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Local">
+
+    <test name="FirstTestKotlin" >
+        <parameter name="driverName" value="local" />
+        <parameter name="deviceName" value="emulator-5554" />
+        <parameter name="screenOrientation" value="portrait" />
+        <classes>
+            <class name="tests.regression.CallTest" />
+            <class name="tests.regression.RecipesItemPageProductsTabTests" />
+            <class name="tests.regression.SearchRecipesTest" />
+        </classes>
+    </test>
+
+</suite>

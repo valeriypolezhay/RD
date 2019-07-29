@@ -1,5 +1,7 @@
 package page_steps.impl
 
+import com.codeborne.selenide.Condition
+import com.codeborne.selenide.Selenide.sleep
 import page_object.AuthorizePage
 import page_object.HomePage
 import page_steps.PageSteps
@@ -9,7 +11,7 @@ class AuthorizeSteps : PageSteps() {
     private val authorizePage = AuthorizePage()
 
     fun startNewUse(): AuthorizeSteps {
-        authorizePage.actionButton.click()
+        authorizePage.actionButton.should(Condition.exist).click()
         return AuthorizeSteps()
     }
 
@@ -26,7 +28,6 @@ class AuthorizeSteps : PageSteps() {
 
     fun loginUser(): AuthorizeSteps {
         authorizePage.loginButton.click()
-
         return AuthorizeSteps()
     }
 

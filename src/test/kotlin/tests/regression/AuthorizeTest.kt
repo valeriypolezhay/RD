@@ -13,7 +13,7 @@ class AuthorizeTest : BaseTest() {
     fun test(driverName: String, deviceName: String, screenOrientation: String) {
 
 //Todo - wtf with sleep
-        sleep(2000)
+//        sleep(2000)
 
         AuthorizeSteps()
             .startNewUse()

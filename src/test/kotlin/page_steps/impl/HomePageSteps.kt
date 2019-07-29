@@ -19,7 +19,7 @@ class HomePageSteps : PageSteps() {
     }
 
     fun swipeButActuallyClick(): MoviePageSteps {
-        sleep(1000)
+        sleep(3000)
         Swipes.swipe(driver, Point(500, 500), Point(500, 500), 100)
         return MoviePageSteps()
     }

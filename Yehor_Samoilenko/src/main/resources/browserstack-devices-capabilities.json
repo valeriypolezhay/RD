@@ -1,0 +1,28 @@
+{
+  "commonCapabilities": {
+    "project": "Project",
+    "automationName": "UiAutomator2",
+    "acceptSslCerts": true,
+    "autoGrantPermissions": true
+  },
+  "deviceCapabilities": [
+    {
+      "device": "Samsung Galaxy S10",
+      "os": "Android",
+      "osVersion": "9.0",
+      "appiumVersion": "1.14.0"
+    },
+    {
+      "device": "Samsung Galaxy S9 Plus",
+      "os": "Android",
+      "osVersion": "9.0",
+      "appiumVersion": "1.14.0"
+    },
+    {
+      "device": "Google Pixel 3",
+      "os": "Android",
+      "osVersion": "9.0",
+      "appiumVersion": "1.14.0"
+    }
+  ]
+}

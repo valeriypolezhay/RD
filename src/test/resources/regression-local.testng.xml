@@ -8,7 +8,7 @@
 
     <test name="NoLoginTest" >
         <parameter name="driverName" value="local" />
-        <parameter name="deviceName" value="emulator-5554" />
+        <parameter name="deviceName" value="5641a5a7" />
         <parameter name="screenOrientation" value="portrait" />
         <classes>
             <class name="tests.regression.AuthorizeTest" />
@@ -16,23 +16,23 @@
     </test>
 
 <!--    5641a5a7-->
-    <test name="LoginTest" >
-        <parameter name="driverName" value="local" />
-        <parameter name="deviceName" value="emulator-5554" />
-        <parameter name="screenOrientation" value="portrait" />
-        <classes>
-            <class name="tests.regression.LoginTest" />
-        </classes>
-    </test>
+<!--    <test name="LoginTest" >-->
+<!--        <parameter name="driverName" value="local" />-->
+<!--        <parameter name="deviceName" value="emulator-5554" />-->
+<!--        <parameter name="screenOrientation" value="portrait" />-->
+<!--        <classes>-->
+<!--            <class name="tests.regression.LoginTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="UnsubscribeTest" >
-        <parameter name="driverName" value="local" />
-        <parameter name="deviceName" value="emulator-5554" />
-        <parameter name="screenOrientation" value="portrait" />
-        <classes>
-            <class name="tests.regression.UnsubscribeTest" />
-        </classes>
-    </test>
+<!--    <test name="UnsubscribeTest" >-->
+<!--        <parameter name="driverName" value="local" />-->
+<!--        <parameter name="deviceName" value="emulator-5554" />-->
+<!--        <parameter name="screenOrientation" value="portrait" />-->
+<!--        <classes>-->
+<!--            <class name="tests.regression.UnsubscribeTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>
